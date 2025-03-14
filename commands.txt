@@ -1,0 +1,14 @@
+ampl repl commands:
+
+file-related:
+read <filename>   # reads an ampl model from a file
+model sample.mod; # calls the model
+data sample.dat;  # calls the data format of the ampl file
+
+
+
+model related:
+update;           # Recomputes the model after changes.
+
+
+
